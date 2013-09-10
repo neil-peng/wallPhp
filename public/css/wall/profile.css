@@ -1,0 +1,62 @@
+#profileFrame
+{
+	position: relative;
+	padding: 46px 0;
+}
+
+#leftFrame
+{
+	position: relative;
+	left:5%;
+	width: 60%;
+	display:inline;
+}
+
+#rightFrame
+{
+	float: right;
+	width: 20%;
+}
+
+.profileImg
+{
+	max-width: 1017px;
+	max-height: 605px;
+}
+
+#rightFrame .download
+{
+	display: block;
+	position: relative;
+	float: right;
+	right: 80%;
+	text-decoration: none;
+	font-weight: bold;
+	clear: both;
+	width: 64px;
+	height: 64px;
+	background-color:#000;
+	background: url("/public/image/template/downloadIcon.png");
+	/*
+	background: rgb(34,34,34);
+	background: -moz-linear-gradient(top, rgba(34,34,34,1) 0%, rgba(17,17,17,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,34,34,1)), color-stop(100%,rgba(17,17,17,1)));
+	background: -webkit-linear-gradient(top, rgba(34,34,34,1) 0%,rgba(17,17,17,1) 100%);
+	background: -o-linear-gradient(top, rgba(34,34,34,1) 0%,rgba(17,17,17,1) 100%);
+	background: -ms-linear-gradient(top, rgba(34,34,34,1) 0%,rgba(17,17,17,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#111111',GradientType=0 );
+	background: linear-gradient(top, rgba(34,34,34,1) 0%,rgba(17,17,17,1) 100%);
+	box-shadow: 0 1px 1px #000000, 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+	color: #CCC;
+	text-shadow: 0 1px 1px #000000;
+	border: none;
+	margin: .5em 0 1em 0;
+	font-size: 1.2em;
+	float: left;
+	padding: 0.65em 0.95em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	*/
+}

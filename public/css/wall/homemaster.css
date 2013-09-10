@@ -1,0 +1,376 @@
+* { 
+	margin:0; 
+	padding:0;
+}
+
+body {
+	/*color: #333;*/
+	background: #B24926;
+	/*background:rgb(171,28,34);*/
+	font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+.topNavLogo
+{
+	display: block;
+	background: url("/public/image/template/humanLogo.png");
+	width: 48px;
+	height: 48px;
+}
+
+.topArtLogo
+{
+	display: block;
+	background: url("/public/image/template/humanLogo.png");
+	width: 48px;
+	height: 48px;
+
+}
+
+.topHuaLogo
+{
+	display: block;
+	background: url("/public/image/template/humanLogo.png");
+	width: 48px;
+	height: 48px;
+	
+}
+
+.topImgiLogo
+{
+	display: block;
+	background: url("/public/image/template/humanLogo.png");
+	width: 48px;
+	height: 48px;
+}
+
+.topmodnLogo
+{
+
+}
+
+#navLogo
+{
+	position: fixed;
+	z-index: 3;
+	padding-left: 85%;
+}
+
+#topNav
+{
+	float:left;
+	display: block;
+	clear: both;
+
+	width: 100%;
+	height: 45px;
+	opacity: 0.9;
+	position: fixed;
+	z-index: 2;
+background-image: linear-gradient(right top, #131413 41%, #008FD1 100%);
+background-image: -o-linear-gradient(right top, #131413 41%, #008FD1 100%);
+background-image: -moz-linear-gradient(right top, #131413 41%, #008FD1 100%);
+background-image: -webkit-linear-gradient(right top, #131413 41%, #008FD1 100%);
+background-image: -ms-linear-gradient(right top, #131413 41%, #008FD1 100%);
+
+background-image: -webkit-gradient(
+	linear,
+	right top,
+	left bottom,
+	color-stop(0.41, #131413),
+	color-stop(1, #008FD1)
+);
+
+}
+
+#topNav .topNavL{
+	margin-top: 12px;
+	display: block;
+	float: left;
+	}
+
+#topNav .topNavL a{
+	cursor: pointer;
+	color: #FFF;
+}
+
+#logo
+{
+	
+	display:block;
+	clear: both;
+	padding: 49px 4% 0px 0px;
+	margin:0 4% 0 4%;
+	border-radius: 10px 10px 0 0;
+	border-right: 1px solid rgba(2, 2, 2, 0.28);
+	border-left: 1px solid rgba(2, 2, 2, 0.28);
+	border-top: 1px solid rgba(250, 250, 250, 0.27);
+	background-image: url("/public/image/template/header1.jpg");
+	
+}
+#logoRightNav
+{
+	float: right;
+	list-style-type:none;
+	
+	background-color: rgba(0, 0, 0, 0.18);
+	border-radius: 10px 10px 0 0;
+	border-right: 1px solid rgba(2, 2, 2, 0.28);
+	border-left: 1px solid rgba(2, 2, 2, 0.28);
+	border-top: 1px solid rgba(250, 250, 250, 0.27);
+	-webkit-box-shadow: rgba(255,255,255,0.3) 0 1px 0, rgba(0,0,0,0.3) 0 -1px 0;
+	box-shadow: rgba(255,255,255,0.3) 0 1px 0, rgba(0,0,0,0.3) 0 -1px 0;
+	-webkit-box-shadow: 0 0 3px rgba(1, 1, 1, 0.7);
+	box-shadow: 0 0 5px rgba(1, 1, 1, 0.7);
+	background-color: rgba(12, 12, 12, 0.06);
+	margin: 150px 0 0 0 ;
+	padding: 0 20px;
+}
+
+#logoRightNav li
+{
+	display: block;
+	font-weight:bold;
+	color:#fff;
+	width: 80px;
+	height:30px;
+	float: left;
+}
+
+#logoRightNav li a:hover
+{
+background: none;
+font-weight:bold;
+-webkit-box-shadow: inset 0 0 5px rgba(0,0,0, 0.4), rgba(255,255,255,0.1) 0 1px 0;
+box-shadow: inset 0 0 5px rgba(0,0,0, 0.4), rgba(255,255,255,0.1) 0 1px 0;
+border-radius: 4px;
+border: 1px solid rgba(0,0,0,0.25);
+color: #fff;
+text-shadow: rgba(0, 0, 0, 0.796875) 0px -1px 0px, rgba(255, 255, 255, 0.296875) 0px 0px 10px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+display: block;
+}
+
+.constrain {
+/*
+max-width: 1240px;
+margin: 0 auto;
+padding: 0 20px;
+*/
+width: 92%;
+max-width: 100%;
+min-width: 768px;
+margin: 0 auto;
+}
+
+
+
+#content-wrapper {
+	background-image: url("/public/image/template/dark-grey-.png");
+	background-color: RGB(41, 41, 41);
+	-webkit-box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 0.87), 3px 0 5px -3px rgba(1, 1, 1, 0.87);
+	box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 0.87), 3px 0 5px -3px rgba(1, 1, 1, 0.87);
+	padding: 28px 0;
+	border-top: 1px solid #333;
+	border-radius: 0 0 10px 10px;
+	position: relative;
+}
+
+.row {
+/*width: 1240px;*/
+width: 92%;
+max-width: 100%;
+min-width: 768px;
+margin: 0 auto;
+}
+
+
+.row:before, .row:after {
+content: "";
+display: table;
+}
+
+#cpWall{
+	/*
+	position: absolute;
+	left: 15%;
+	width:85% ;
+	top:168px;
+
+	background: #B24926;
+	*/
+	display: block;
+	float: left;
+	width: 100%;
+	/*padding-left: 0;
+	padding-right: 0;*/
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-box-sizing: content-box;
+	padding: 0 10%;
+	/*position: relative;*/
+
+}
+
+#picDiv{
+	width: 420px;
+	height: 330px;
+	overflow: hidden;
+	border: 15px #111 solid;
+	margin: 2px 8px;
+	float: left;
+	background-color: RGB(0, 0, 0);
+	cursor: pointer;
+}
+
+#pageIndexNav{
+	position: relative;
+	list-style-type:none;
+	left: 30%;  
+}
+
+
+#pageIndexNav  li a{
+	color: #fff;
+	text-decoration: none;
+	padding-top: 4px;
+	display:block;
+	width: 32px;
+	height: 22px;
+	text-align: center;
+	margin-left: 2px;
+	background-color:#333;
+}
+
+#pageIndexNav .pageIndexMiddle
+{
+	color: #fff;
+	text-decoration: none;
+	padding-top: 4px;
+	display:block;
+	width: 32px;
+	height: 22px;
+	text-align: center;
+	margin-left: 2px;
+	background-color:#333;
+}
+
+#pageIndexNav li #pageCurrent{
+	color: #000;
+	background-color:#fff;
+}
+
+#pageIndexNav li{
+	float: left;
+}
+
+#pageIndexNav li:hover{
+	
+	background-color: #000;
+	color: #000;
+	
+}
+
+
+
+#eachVoteNav{
+	position: relative;
+	list-style-type:none;
+	left: 0%;  
+}
+
+#eachVoteNav li{
+	float: left;
+	margin-left: 0px;
+}
+#logoImg
+{
+	src: url("/public/image/template/testLogo.png");
+}
+
+#eachVoteNav .voteU a {
+	display: block;
+	background: url("/public/image/template/indexUp.png");
+	width: 24px;
+	height: 24px;
+	background-color:#000;
+
+}
+
+#eachVoteNav .voteD a {
+	display: block;
+	background: url("/public/image/template/indexDown.png");
+	width: 24px;
+	height: 24px;
+	background-color:#000;
+
+}
+
+#eachVoteNav .voteRes{
+	display: block;
+	width: 24px;
+	height: 24px;
+	color: #fff;
+	position: relative;
+	left: 3px;  
+	background-color:#000;
+}
+
+#eachVoteNav .voteIcon a {
+	display: block;
+	background: url("/public/image/template/redHeart.png");
+	width: 24px;
+	height: 24px;
+	background-color:#000;
+}
+
+#eachVoteNav .voteT {
+	display: block;
+	background: url("/public/image/template/redHeart.png");
+	width: 24px;
+	height: 24px;
+	background-color:#000;
+	position: relative;
+	left: 30px;  
+}
+
+#addType ul  {
+	display: block;
+	color: #fff;
+}
+
+#addType , #addType ul {
+	color: #fff;
+	display: block;
+
+}
+
+#addType ul {
+	color: #fff;
+	display: none;
+	top : 20px;
+
+}
+
+#addType:hover ul, #addType.over ul
+{
+	display: block;
+
+}
+
+#pidSpan
+{
+	/*display: none;*/
+}
+
